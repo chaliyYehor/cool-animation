@@ -65,6 +65,14 @@ body {
 	color: white;
 
 	font-size: 2rem;
+
+	transition: .4s;
+
+	opacity: 0;
+
+	&.active {
+		opacity: 1;
+	}
 }
 
 .wrap-one {
