@@ -99,10 +99,7 @@ body {
 
 @media (max-width: 500px) {
   .wrapper {
-    width: 100%;
-  }
-  body {
-    align-items: baseline;
+    width: 70%;
   }
 }
 

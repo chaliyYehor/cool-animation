@@ -1,4 +1,4 @@
-// @import 'media';
+@import 'media';
 
 body {
 	margin: 0;
@@ -134,15 +134,5 @@ body {
 		&:nth-child(2n) {
 			align-self: flex-end;
 		}
-	}
-}
-
-@media (max-width: 500px) {
-	.wrapper {
-		width: 100%;
-	}
-	
-	body {
-		align-items: baseline;
 	}
 }
