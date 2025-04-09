@@ -1,0 +1,14 @@
+{
+  "name": "smooth-animation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch src/styles/"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.86.3"
+  }
+}
