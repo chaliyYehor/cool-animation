@@ -1,20 +1,21 @@
 body {
   margin: 0;
   background-color: lightgray;
-  height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .wrapper {
   margin-inline: auto;
   width: 50vw;
-  height: 50vh;
-  background-image: url(images/milad-fakurian-seA-FPPXL-M-unsplash.jpg);
+  height: 420px;
   background-size: cover;
   box-shadow: inset 0px 0px 15px rgb(73, 125, 255), 0px 0px 25px 10px black;
   border-radius: 10px;
-  padding: 10px;
+  padding: 30px;
+  margin: 100px 0;
   display: flex;
   gap: 10px;
 }
@@ -30,6 +31,18 @@ body {
 .wrapper .piece.active {
   width: 200%;
   flex-shrink: 0.8;
+}
+
+.wrap-one {
+  background-image: url(images/milad-fakurian-seA-FPPXL-M-unsplash.jpg);
+}
+
+.wrap-two {
+  background-image: url(images/plufow-le-studio-ailrGVN0xNA-unsplash.jpg);
+}
+
+.wrap-three {
+  background-image: url(images/richard-horvath-_nWaeTF6qo0-unsplash.jpg);
 }
 
 /*# sourceMappingURL=styles.css.map */
