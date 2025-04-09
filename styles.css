@@ -2,14 +2,12 @@ body {
   margin: 0;
   background-color: lightgray;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .wrapper {
-  margin-inline: auto;
-  width: 50vw;
+  width: 50%;
   height: 420px;
   background-size: cover;
   box-shadow: inset 0px 0px 15px rgb(73, 125, 255), 0px 0px 25px 10px black;
@@ -26,7 +24,7 @@ body {
   backdrop-filter: blur(5px);
   border-radius: 10px;
   transition: 0.4s;
-  flex-shrink: 1;
+  flex-shrink: 2;
 }
 .wrapper .piece.active {
   width: 200%;
@@ -97,6 +95,15 @@ body {
 }
 .wrap-three .piece-third:nth-child(2n) {
   align-self: flex-end;
+}
+
+@media (max-width: 349px) {
+  .wrapper {
+    width: 100%;
+  }
+  body {
+    align-items: baseline;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
