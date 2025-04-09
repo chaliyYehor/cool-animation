@@ -69,8 +69,10 @@ body {
 	transition: .4s;
 
 	opacity: 0;
+	pointer-events: none;
 
 	&.active {
+		pointer-events: all;
 		opacity: 1;
 	}
 }
