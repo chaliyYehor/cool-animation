@@ -97,7 +97,7 @@ body {
   align-self: flex-end;
 }
 
-@media (max-width: 349px) {
+@media (max-width: 500px) {
   .wrapper {
     width: 100%;
   }
