@@ -51,6 +51,22 @@ body {
 	}
 }
 
+.piece, .piece-sec, .piece-third {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.close-btn {
+	background-color: transparent;
+
+	border: 0;
+
+	color: white;
+
+	font-size: 2rem;
+}
+
 .wrap-one {
 	background-image: url(images/milad-fakurian-seA-FPPXL-M-unsplash.jpg);
 }
