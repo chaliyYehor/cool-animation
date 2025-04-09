@@ -1,4 +1,4 @@
-const elementsToAnimate = document.querySelectorAll('.piece')
+const elementsToAnimate = document.querySelectorAll('.wrapper > div')
 
 elementsToAnimate.forEach(el => {
 	el.addEventListener('click', (e) => {
