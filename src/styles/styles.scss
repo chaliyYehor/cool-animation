@@ -37,9 +37,12 @@ body {
 		border-radius: 10px;
 
 		transition: .4s;
-	}
 
-	.piece.one {
-		
+		flex-shrink: 1;
+
+		&.active {
+			width: 200%;
+			flex-shrink: 0.8;
+		}
 	}
 }
