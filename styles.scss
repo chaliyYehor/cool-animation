@@ -1,4 +1,4 @@
-@import 'media';
+@use 'media';
 
 body {
 	margin: 0;
@@ -136,3 +136,5 @@ body {
 		}
 	}
 }
+
+@include media.responsive

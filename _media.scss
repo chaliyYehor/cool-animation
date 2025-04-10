@@ -1,5 +1,11 @@
-@media (max-width: 500px) {
-	.wrapper {
-		width: 70%;
-	}
+@mixin responsive {
+  @media (max-width: 349px) {
+    .wrapper {
+      width: 100vw;
+    }
+
+    body {
+      align-items: baseline;
+    }
+  }
 }
